@@ -3,12 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "mgrauv.github.io"
+  title: "Marc Grau"
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/marc-grau-vidiella-872b9251/
+      - icon: github
+        href: https://github.com/mgrauv/mgrauv.github.io
+  page-footer: "Copyright 2025, Marc Grau Vidiella" 
 
 format:
   html:
